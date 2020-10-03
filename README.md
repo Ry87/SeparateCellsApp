@@ -18,13 +18,13 @@
 普段Ｒを使わない方はちょっとだけ前準備が必要です。
 1. Rstudioをインストール
 1. 下記おまじないをRstudioのコンソールに打ち込んで、ライブラリをインストール
->
+```
 install.packages("shiny")
 install.packages("DT")
 install.packages("tidyverse")
-<
-3.下記おまじないをRstudioのコンソールに打ち込んで、ツールの実行
->
-library(shiny)
+```
+1.下記おまじないをRstudioのコンソールに打ち込んで、ツールの実行
+```
+library(shiny)  
 runUrl("https://github.com/Ry87/SeparateCellsApp/archive/master.tar.gz")
-<
+```
