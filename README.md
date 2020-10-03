@@ -23,7 +23,7 @@ install.packages("shiny")
 install.packages("DT")
 install.packages("tidyverse")
 ```
-1.下記おまじないをRstudioのコンソールに打ち込んで、ツールの実行
+1. 下記おまじないをRstudioのコンソールに打ち込んで、ツールの実行
 ```
 library(shiny)  
 runUrl("https://github.com/Ry87/SeparateCellsApp/archive/master.tar.gz")
